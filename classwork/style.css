@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(#fdfefe, #dfe3ee);
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+/* Signup box */
+.signup {
+    width: 420px;
+}
+
+/* Headings */
+.signup h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1d2129;
+    margin-bottom: 5px;
+}
+
+.signup p {
+    font-size: 18px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+/* Name inputs */
+.name-box {
+    display: flex;
+    gap: 10px;
+}
+
+.name-box input {
+    width: 50%;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Birthday */
+.birthday label {
+    font-size: 14px;
+    color: #606770;
+}
+
+.birthday select {
+    width: 30%;
+    margin-right: 5px;
+}
+
+/* Gender */
+.gender {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #1d2129;
+}
+
+.gender input {
+    margin-right: 5px;
+}
+
+/* Terms */
+.terms {
+    font-size: 11px;
+    color: #777;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+/* Button */
+button {
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #36a420;
+}
+
+/* Page link */
+.page-link {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #1c1e21;
+}
+
+.page-link a {
+    color: #385898;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-link a:hover {
+    text-decoration: underline;
+}
